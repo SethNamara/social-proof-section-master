@@ -17,7 +17,7 @@
     --fs-200: 1rem;
     --fs-300: 1.125rem;
     --fs-400: 1.25rem;
-    --fs-500: 1.5rem;
+    --fs-500: 2rem;
 }
 
 /* ===Reset styling === */
@@ -41,4 +41,99 @@ picture {
 }
 
 /* === General styling === */
+body {
+    font-family: var(--font-family);
+    background-color: var(--clr-primary-100);
+    font-size: var(--fs-100);
+    font-weight: var(--fw-regular);
+}
 
+.container {
+    max-width: 23rem;
+    margin: 0 auto;
+}
+
+.flex_group {
+    text-align: center;
+    margin-top: 2.5rem;
+}
+
+.heading {
+    font-size: var(--fs-500);
+    font-weight: var(--fw-bold);
+    color: var(--clr-secondary-100);
+    line-height: .8;
+    margin: 0 auto;
+    max-width: 17rem;
+    padding-bottom: 1rem;
+}
+
+.info {
+    color: var(--clr-accent-200);
+    margin: 0 auto;
+    max-width:19rem;
+}
+
+.rating {
+    background-color: var(--clr-accent-300);
+    margin: 1rem 0;
+    padding: .7rem 0;
+    border-radius: 8px;
+    max-width: 20rem;
+}
+
+.stars {
+    display: flex;
+    justify-content: center;
+    gap: .5rem;
+    padding-bottom: .5rem;
+}
+
+.rate_output {
+    color: var(--clr-secondary-100);
+    font-size: var(--fs-300);
+    font-weight: var(--fw-semi-bold);
+}
+
+.cards_container {
+    padding: 1rem 0;
+}
+
+.card {
+    background-color: var(--clr-secondary-100);
+    margin: 1rem 0;
+    padding: 2em;
+    border-radius: 8px;
+    color: var(--clr-accent-300);
+}
+
+.rater {
+    display: flex;
+    align-items: center;
+}
+
+.rater_image{
+    max-width: 3rem;
+}
+
+.rater_image img{
+    border-radius: 50%;
+}
+
+.rater_details {
+    font-size: var(--fs-300);
+    font-weight: var(--fw-semi-bold);
+    margin-left: 1.5rem;
+
+}
+
+.rater_details span {
+    display: block;
+    color: var(--clr-accent-100);
+    font-size: var(--fs-200);
+}
+
+.comment {
+    padding-top: 1rem;
+    max-width: 20rem;
+}
